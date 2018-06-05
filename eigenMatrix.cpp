@@ -34,9 +34,9 @@ int main( int argc, char** argv )
 
     // 下面是对Eigen阵的操作
     // 输入数据（初始化）
-    matrix_23 << 1, 2, 3, 4, 5, 6;
+    matrix_23 << 1, 2, 3, 4, 5, 6, 7, 8;
     // 输出
-    cout << matrix_23 << endl;
+    cout << "matrix_23\n"<<matrix_23 << endl;
 
     // 用()访问矩阵中的元素
     for (int i=0; i<2; i++) {
